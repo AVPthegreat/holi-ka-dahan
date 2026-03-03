@@ -1098,7 +1098,11 @@ class _BurnResult extends StatelessWidget {
           Text(
             '"$text"',
             textAlign: TextAlign.center,
-            style: Theme.of(context).textTheme.bodyLarge?.copyWith(color: Colors.white70, height: 1.35, fontSize: 18),
+            style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                  color: Colors.white70,
+                  height: 1.35,
+                  fontSize: 18,
+                ),
           ),
         ],
       ],

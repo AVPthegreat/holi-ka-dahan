@@ -30,7 +30,12 @@ migrate_working_dir/
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
+# Keep build output ignored by default, but allow build/web for static hosting
 /build/
+!/build/
+/build/**
+!/build/web/
+!/build/web/**
 /coverage/
 
 # Symbolication related
